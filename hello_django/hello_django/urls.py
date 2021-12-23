@@ -19,5 +19,10 @@ from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/<nome>/', views.hello)
+    path('hello/<nome>/', views.hello),
+    path('soma/<int:fist_number>/<int:second_number>/', views.soma),
+    path('multiplicacao/<int:fist_number>/<int:second_number>/', views.multiplicacao),
+    path('divisao/<int:fist_number>/<int:second_number>/', views.divisao),
+    path('subtracao/<int:fist_number>/<int:second_number>/', views.subtracao)
+
 ]
