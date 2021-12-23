@@ -35,7 +35,7 @@ Além do Django, existem outros frameworks que auxiliam no desenvolvimento web c
 
 
 ```bash
-	$ python -m pip install Django
+$ python -m pip install Django
 ```
 
 ## Virtualenv🐍
@@ -45,8 +45,8 @@ Além do Django, existem outros frameworks que auxiliam no desenvolvimento web c
 * Extremamemte útil para se trabalhar com projetos que utilizam bibliotecas com versões difirentes
 
 ```bash
-	$ python -m venv ./folder
-	$ pip install django
+$ python -m venv ./folder
+$ pip install django
 ```
 
 ---
@@ -62,5 +62,5 @@ Para criar um app no Django é necessário uma estrutura padrão que pode ser cr
 ## Start Django
 
 ```bash
-	$ python manage.py runserver
+$ python manage.py runserver
 ```
